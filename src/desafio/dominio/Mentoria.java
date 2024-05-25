@@ -31,6 +31,12 @@ public class Mentoria {
         this.data = data;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Mentoria{" +
+                "data=" + data +
+                ", titulo='" + titulo + '\'' +
+                ", descricao='" + descricao + '\'' +
+                '}';
+    }
 }
